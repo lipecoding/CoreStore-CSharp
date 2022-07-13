@@ -1,0 +1,29 @@
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.exe
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.deps.json
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.runtimeconfig.json
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.pdb
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\MetroFramework.Design.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\MetroFramework.Fonts.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\MetroFramework.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.csproj.AssemblyReference.cache
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore_CSharp.View.Login.resources
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.csproj.GenerateResource.cache
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.AssemblyInfoInputs.cache
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.AssemblyInfo.cs
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.csproj.CoreCompileInputs.cache
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.csproj.CopyComplete
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\refint\CoreStore CSharp.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.pdb
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.genruntimeconfig.cache
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\ref\CoreStore CSharp.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\ZstdNet.dll
