@@ -27,3 +27,5 @@ C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-w
 C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\MySql.Data.dll
 C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
 C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore_CSharp.View.Main.resources
+C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore_CSharp.View.User.resources

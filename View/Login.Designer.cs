@@ -48,10 +48,10 @@
             this.loginpnl.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.loginpnl.HorizontalScrollbarBarColor = true;
             this.loginpnl.HorizontalScrollbarHighlightOnWheel = false;
-            this.loginpnl.HorizontalScrollbarSize = 10;
-            this.loginpnl.Location = new System.Drawing.Point(23, 63);
+            this.loginpnl.HorizontalScrollbarSize = 11;
+            this.loginpnl.Location = new System.Drawing.Point(23, 71);
             this.loginpnl.Name = "loginpnl";
-            this.loginpnl.Size = new System.Drawing.Size(219, 191);
+            this.loginpnl.Size = new System.Drawing.Size(219, 216);
             this.loginpnl.Style = MetroFramework.MetroColorStyle.Purple;
             this.loginpnl.TabIndex = 0;
             this.loginpnl.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -61,9 +61,9 @@
             // 
             // loginbtn
             // 
-            this.loginbtn.Location = new System.Drawing.Point(67, 142);
+            this.loginbtn.Location = new System.Drawing.Point(67, 161);
             this.loginbtn.Name = "loginbtn";
-            this.loginbtn.Size = new System.Drawing.Size(65, 25);
+            this.loginbtn.Size = new System.Drawing.Size(65, 28);
             this.loginbtn.Style = MetroFramework.MetroColorStyle.Purple;
             this.loginbtn.TabIndex = 6;
             this.loginbtn.Text = "Sign In";
@@ -75,7 +75,7 @@
             // 
             this.passlbl.AutoSize = true;
             this.passlbl.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.passlbl.Location = new System.Drawing.Point(67, 80);
+            this.passlbl.Location = new System.Drawing.Point(67, 91);
             this.passlbl.Name = "passlbl";
             this.passlbl.Size = new System.Drawing.Size(67, 19);
             this.passlbl.Style = MetroFramework.MetroColorStyle.Purple;
@@ -87,7 +87,7 @@
             // 
             this.userlbl.AutoSize = true;
             this.userlbl.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.userlbl.Location = new System.Drawing.Point(67, 17);
+            this.userlbl.Location = new System.Drawing.Point(67, 19);
             this.userlbl.Name = "userlbl";
             this.userlbl.Size = new System.Drawing.Size(71, 19);
             this.userlbl.Style = MetroFramework.MetroColorStyle.Purple;
@@ -100,9 +100,10 @@
             this.passtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.passtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.passtxt.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.passtxt.Location = new System.Drawing.Point(26, 102);
+            this.passtxt.Location = new System.Drawing.Point(26, 116);
             this.passtxt.Name = "passtxt";
-            this.passtxt.Size = new System.Drawing.Size(160, 16);
+            this.passtxt.PasswordChar = '●';
+            this.passtxt.Size = new System.Drawing.Size(160, 17);
             this.passtxt.TabIndex = 3;
             // 
             // usertxt
@@ -110,17 +111,17 @@
             this.usertxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.usertxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.usertxt.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.usertxt.Location = new System.Drawing.Point(26, 39);
+            this.usertxt.Location = new System.Drawing.Point(26, 44);
             this.usertxt.Name = "usertxt";
-            this.usertxt.Size = new System.Drawing.Size(160, 16);
+            this.usertxt.Size = new System.Drawing.Size(160, 17);
             this.usertxt.TabIndex = 2;
             // 
             // metroButton1
             // 
             this.metroButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroButton1.Location = new System.Drawing.Point(244, 10);
+            this.metroButton1.Location = new System.Drawing.Point(244, 11);
             this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(18, 18);
+            this.metroButton1.Size = new System.Drawing.Size(18, 20);
             this.metroButton1.Style = MetroFramework.MetroColorStyle.Purple;
             this.metroButton1.TabIndex = 1;
             this.metroButton1.Text = "X";
@@ -129,14 +130,17 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AcceptButton = this.loginbtn;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(265, 277);
+            this.ClientSize = new System.Drawing.Size(265, 314);
             this.ControlBox = false;
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.loginpnl);
+            this.Font = new System.Drawing.Font("Nunito SemiBold", 8.999998F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.Name = "Login";
+            this.Padding = new System.Windows.Forms.Padding(20, 68, 20, 23);
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Purple;
             this.Text = "CoreStore | Login";

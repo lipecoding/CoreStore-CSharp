@@ -43,7 +43,11 @@ namespace CoreStore_CSharp.View
             bool r = objLoginDao.vlogin(objUserDto.User, objUserDto.Pass);
 
             if(r == true) {
-                MessageBox.Show("Logado com sucesso!");
+                Main m = new Main();
+                m.Show();
+
+                this.Hide();
+                
             } else {
                 MessageBox.Show("Senha/email incorretos!");
             }
