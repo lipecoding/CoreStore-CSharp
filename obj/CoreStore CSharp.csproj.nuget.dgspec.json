@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\source\\repos\\CoreStore CSharp\\CoreStore CSharp\\CoreStore CSharp.csproj": {}
+    "D:\\Documents\\GitHub\\CoreStore-CSharp\\CoreStore CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\source\\repos\\CoreStore CSharp\\CoreStore CSharp\\CoreStore CSharp.csproj": {
+    "D:\\Documents\\GitHub\\CoreStore-CSharp\\CoreStore CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\source\\repos\\CoreStore CSharp\\CoreStore CSharp\\CoreStore CSharp.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\CoreStore-CSharp\\CoreStore CSharp.csproj",
         "projectName": "CoreStore CSharp",
-        "projectPath": "C:\\Users\\felip\\source\\repos\\CoreStore CSharp\\CoreStore CSharp\\CoreStore CSharp.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\CoreStore-CSharp\\CoreStore CSharp.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\source\\repos\\CoreStore CSharp\\CoreStore CSharp\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\CoreStore-CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

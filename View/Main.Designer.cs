@@ -59,7 +59,6 @@
             // 
             // miscbtn
             // 
-            this.miscbtn.Dock = System.Windows.Forms.DockStyle.Left;
             this.miscbtn.Location = new System.Drawing.Point(711, 0);
             this.miscbtn.Name = "miscbtn";
             this.miscbtn.Size = new System.Drawing.Size(237, 52);
@@ -71,7 +70,6 @@
             // 
             // providerbtn
             // 
-            this.providerbtn.Dock = System.Windows.Forms.DockStyle.Left;
             this.providerbtn.Location = new System.Drawing.Point(474, 0);
             this.providerbtn.Name = "providerbtn";
             this.providerbtn.Size = new System.Drawing.Size(237, 52);
@@ -83,7 +81,6 @@
             // 
             // productbtn
             // 
-            this.productbtn.Dock = System.Windows.Forms.DockStyle.Left;
             this.productbtn.Location = new System.Drawing.Point(237, 0);
             this.productbtn.Name = "productbtn";
             this.productbtn.Size = new System.Drawing.Size(237, 52);
@@ -95,7 +92,6 @@
             // 
             // userbtn
             // 
-            this.userbtn.Dock = System.Windows.Forms.DockStyle.Left;
             this.userbtn.Location = new System.Drawing.Point(0, 0);
             this.userbtn.Name = "userbtn";
             this.userbtn.Size = new System.Drawing.Size(237, 52);
@@ -134,14 +130,14 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 600);
             this.ControlBox = false;
             this.Controls.Add(this.closebtn);
             this.Controls.Add(this.mainpnl);
             this.Controls.Add(this.btnpnl);
-            this.Font = new System.Drawing.Font("Nunito SemiBold", 9.749998F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749998F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.Name = "Main";
             this.Padding = new System.Windows.Forms.Padding(23, 72, 23, 24);

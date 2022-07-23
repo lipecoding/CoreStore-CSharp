@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "miVr1at1zbRecVfRriCCCjZ04qOQQKcf7sr+G9IG235u3JzMoF74ae+e1wBGhWVoXWUSP2ZM8kACVqphWt17TA==",
+  "dgSpecHash": "nvnTpeEVicxwe9G6iaCiMWiqfS8lnt154f/2KIopvShvVDfhOU7AD587kB3wIWfmg1b9Wpm+hiynZdUwHqmCdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\source\\repos\\CoreStore CSharp\\CoreStore CSharp\\CoreStore CSharp.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\CoreStore-CSharp\\CoreStore CSharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
