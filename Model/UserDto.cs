@@ -7,7 +7,7 @@ namespace CoreStore_CSharp.Model
 {
     public class UserDTO
     {
-        private string user, pass, name, lname, b, l, cpf, cep;
+        private string user, pass, name, lname, b, l, cpf, cep, id;
 
         public string User { get => user; set => user = value; }
 
@@ -24,5 +24,6 @@ namespace CoreStore_CSharp.Model
         public string Name { get => name; set => name = value; }
 
         public string Lname { get => lname; set => lname = value; }
+        public string Id { get => id; set => id = value; }
     }
 }

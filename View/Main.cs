@@ -19,7 +19,9 @@ namespace CoreStore_CSharp.View
             User user = new User();
 
             user.TopLevel = false;
+            user.TopMost = true;
             mainpnl.Controls.Add(user);
+            user.Dock = DockStyle.Fill;
             user.Show();
         }
 

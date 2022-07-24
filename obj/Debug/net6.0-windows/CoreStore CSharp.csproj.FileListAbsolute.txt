@@ -29,3 +29,34 @@ C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-w
 C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\bin\Debug\net6.0-windows\ZstdNet.dll
 C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore_CSharp.View.Main.resources
 C:\Users\felip\source\repos\CoreStore CSharp\CoreStore CSharp\obj\Debug\net6.0-windows\CoreStore_CSharp.View.User.resources
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.exe
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.deps.json
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.runtimeconfig.json
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\CoreStore CSharp.pdb
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\MetroFramework.Design.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\MetroFramework.Fonts.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\MetroFramework.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\MySql.Data.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+D:\Documents\GitHub\CoreStore-CSharp\bin\Debug\net6.0-windows\ZstdNet.dll
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.csproj.AssemblyReference.cache
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore_CSharp.View.Login.resources
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore_CSharp.View.Main.resources
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore_CSharp.View.User.resources
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.csproj.GenerateResource.cache
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.AssemblyInfoInputs.cache
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.AssemblyInfo.cs
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.csproj.CopyComplete
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.dll
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\refint\CoreStore CSharp.dll
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.pdb
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\CoreStore CSharp.genruntimeconfig.cache
+D:\Documents\GitHub\CoreStore-CSharp\obj\Debug\net6.0-windows\ref\CoreStore CSharp.dll

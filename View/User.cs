@@ -17,5 +17,14 @@ namespace CoreStore_CSharp.View
             InitializeComponent();
         }
 
+        private void searchbtn_Click(object sender, EventArgs e)
+        {
+            Model.UserDTO ObjDto = new Model.UserDTO();
+            Dao.UserDao ObjDao = new Dao.UserDao();
+
+            ObjDto.Id = useridtxt.Text;
+
+            ObjDao.search(ObjDto.Id);
+        }
     }
 }
