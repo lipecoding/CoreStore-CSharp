@@ -57,7 +57,19 @@ namespace CoreStore_CSharp.View
 
         private void createbtn_Click(object sender, EventArgs e)
         {
+            Model.UserDTO ObjDto = new Model.UserDTO();
+            Dao.UserDao ObjDao = new Dao.UserDao();
 
+            ObjDto.User = usertxt.Text;
+            ObjDto.Pass = passtxt.Text;
+            ObjDto.Name = nametxt.Text;
+            ObjDto.Lname = lnametxt.Text;
+            ObjDto.B = birtgtxt.Text;
+            ObjDto.L = adresstxt.Text;
+            ObjDto.Cep = ziptxt.Text;
+            ObjDto.Cpf = cpftxt.Text;
+
+            ObjDao.create(ObjDto.User, ObjDto.Pass, ObjDto.Name, ObjDto.Lname, ObjDto.L, ObjDto.Cep, ObjDto.Cpf, ObjDto.B, Int16.Parse(admtxt.Text));
         }
 
         private void deletebtn_Click(object sender, EventArgs e)
