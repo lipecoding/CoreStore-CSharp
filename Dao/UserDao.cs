@@ -11,6 +11,9 @@ namespace CoreStore_CSharp.Dao
         private MySqlCommand cmduser;
         private ConSql con;
         private MySqlDataReader dr;
+
+        public String un, p, n, ln, a, z, c, b;
+        public int ad;
         public void search(string id) {
             con = new ConSql();
             cmduser = new MySqlCommand();
@@ -26,8 +29,19 @@ namespace CoreStore_CSharp.Dao
                 dr = cmduser.ExecuteReader();
 
                 if(dr.Read()) {
-                    objuser.usertxt.Text = Char.ToString(dr.GetChar("username"));
-                    MessageBox.Show("teste!");
+
+                    if(dr.HasRows)
+                    {
+                        un = dr.GetString("username");
+                        p = dr.GetString("pass");
+                        n = dr.GetString("name");
+                        ln = dr.GetString("lastname");
+                        a = dr.GetString("adress");
+                        z = dr.GetString("zipcode");
+                        c = dr.GetString("cpf");
+                        b = dr.GetString("birthday");
+                        ad = dr.GetInt16("admin");
+                    }
                 } else {
                     MessageBox.Show("UserId não Existe!");
                 }

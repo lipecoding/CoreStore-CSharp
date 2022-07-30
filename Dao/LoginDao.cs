@@ -21,7 +21,7 @@ namespace CoreStore_CSharp.Dao
             con = new ConSql();
             cmd = new MySqlCommand();
 
-            cmd.CommandText = "select * from users where username = @User and pass = @Pass";
+            cmd.CommandText = "select * from users where username = @User and pass = @Pass and admin = 1";
             cmd.Parameters.AddWithValue("@User", User);
             cmd.Parameters.AddWithValue("@Pass", Pass);
 

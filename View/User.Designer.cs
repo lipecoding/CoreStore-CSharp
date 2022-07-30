@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.admlbl = new System.Windows.Forms.Label();
+            this.admtxt = new System.Windows.Forms.TextBox();
+            this.userlist = new System.Windows.Forms.RichTextBox();
             this.cpflbl = new System.Windows.Forms.Label();
             this.birthlbl = new System.Windows.Forms.Label();
             this.adresslbl = new System.Windows.Forms.Label();
@@ -56,6 +59,9 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.admlbl);
+            this.panel1.Controls.Add(this.admtxt);
+            this.panel1.Controls.Add(this.userlist);
             this.panel1.Controls.Add(this.cpflbl);
             this.panel1.Controls.Add(this.birthlbl);
             this.panel1.Controls.Add(this.adresslbl);
@@ -80,8 +86,41 @@
             this.panel1.Controls.Add(this.Editbtn);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(461, 375);
+            this.panel1.Size = new System.Drawing.Size(724, 375);
             this.panel1.TabIndex = 0;
+            // 
+            // admlbl
+            // 
+            this.admlbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.admlbl.AutoSize = true;
+            this.admlbl.Location = new System.Drawing.Point(308, 176);
+            this.admlbl.Name = "admlbl";
+            this.admlbl.Size = new System.Drawing.Size(43, 15);
+            this.admlbl.TabIndex = 26;
+            this.admlbl.Text = "Admin";
+            // 
+            // admtxt
+            // 
+            this.admtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.admtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.admtxt.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.admtxt.Location = new System.Drawing.Point(308, 194);
+            this.admtxt.Name = "admtxt";
+            this.admtxt.Size = new System.Drawing.Size(145, 16);
+            this.admtxt.TabIndex = 25;
+            this.admtxt.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // userlist
+            // 
+            this.userlist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.userlist.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.userlist.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.userlist.Location = new System.Drawing.Point(481, 20);
+            this.userlist.Name = "userlist";
+            this.userlist.Size = new System.Drawing.Size(230, 343);
+            this.userlist.TabIndex = 24;
+            this.userlist.Text = "";
             // 
             // cpflbl
             // 
@@ -175,6 +214,7 @@
             // 
             this.ziptxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.ziptxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ziptxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.ziptxt.Location = new System.Drawing.Point(6, 194);
             this.ziptxt.Name = "ziptxt";
             this.ziptxt.Size = new System.Drawing.Size(145, 16);
@@ -184,6 +224,7 @@
             // 
             this.cpftxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.cpftxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cpftxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.cpftxt.Location = new System.Drawing.Point(157, 194);
             this.cpftxt.Name = "cpftxt";
             this.cpftxt.Size = new System.Drawing.Size(145, 16);
@@ -193,6 +234,7 @@
             // 
             this.nametxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.nametxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.nametxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.nametxt.Location = new System.Drawing.Point(308, 38);
             this.nametxt.Name = "nametxt";
             this.nametxt.Size = new System.Drawing.Size(145, 16);
@@ -202,6 +244,7 @@
             // 
             this.passtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.passtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.passtxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.passtxt.Location = new System.Drawing.Point(157, 38);
             this.passtxt.Name = "passtxt";
             this.passtxt.Size = new System.Drawing.Size(145, 16);
@@ -211,6 +254,7 @@
             // 
             this.adresstxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.adresstxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.adresstxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.adresstxt.Location = new System.Drawing.Point(308, 115);
             this.adresstxt.Name = "adresstxt";
             this.adresstxt.Size = new System.Drawing.Size(145, 16);
@@ -220,6 +264,7 @@
             // 
             this.lnametxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.lnametxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lnametxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.lnametxt.Location = new System.Drawing.Point(6, 115);
             this.lnametxt.Name = "lnametxt";
             this.lnametxt.Size = new System.Drawing.Size(145, 16);
@@ -229,6 +274,7 @@
             // 
             this.birtgtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.birtgtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.birtgtxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.birtgtxt.Location = new System.Drawing.Point(157, 115);
             this.birtgtxt.Name = "birtgtxt";
             this.birtgtxt.Size = new System.Drawing.Size(145, 16);
@@ -238,6 +284,7 @@
             // 
             this.usertxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.usertxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.usertxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.usertxt.Location = new System.Drawing.Point(6, 38);
             this.usertxt.Name = "usertxt";
             this.usertxt.Size = new System.Drawing.Size(145, 16);
@@ -269,6 +316,7 @@
             // 
             this.useridtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.useridtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.useridtxt.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.useridtxt.Location = new System.Drawing.Point(296, 294);
             this.useridtxt.Name = "useridtxt";
             this.useridtxt.Size = new System.Drawing.Size(124, 16);
@@ -310,7 +358,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(485, 399);
+            this.ClientSize = new System.Drawing.Size(748, 399);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.MenuBar;
@@ -347,5 +395,8 @@
         private TextBox birtgtxt;
         public TextBox usertxt;
         private Panel panel1;
+        private RichTextBox userlist;
+        private Label admlbl;
+        private TextBox admtxt;
     }
 }
