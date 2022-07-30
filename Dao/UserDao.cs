@@ -8,7 +8,7 @@ namespace CoreStore_CSharp.Dao
 {
     class UserDao
     {
-        private MySqlCommand cmduser;
+        private MySqlCommand cmd;
         private ConSql con;
         private MySqlDataReader dr;
 
@@ -16,17 +16,15 @@ namespace CoreStore_CSharp.Dao
         public int ad;
         public void search(string id) {
             con = new ConSql();
-            cmduser = new MySqlCommand();
+            cmd = new MySqlCommand();
 
-            View.User objuser = new View.User();
-
-            cmduser.CommandText = "select * from users where userid = @Userid";
-            cmduser.Parameters.AddWithValue("@Userid", id);
+            cmd.CommandText = "select * from users where userid = @Userid";
+            cmd.Parameters.AddWithValue("@Userid", id);
 
             try
             {
-                cmduser.Connection = con.connect();
-                dr = cmduser.ExecuteReader();
+                cmd.Connection = con.connect();
+                dr = cmd.ExecuteReader();
 
                 if(dr.Read()) {
 
@@ -46,6 +44,39 @@ namespace CoreStore_CSharp.Dao
                     MessageBox.Show("UserId não Existe!");
                 }
             
+            }
+            catch (System.Exception err)
+            {
+                MessageBox.Show("Erro: " + err.Message);
+            }
+        }
+
+        public void edit(string id, string user, string pass, string name, string lname, string adress, string zip, string cpf, string birth, int adm) {
+            con = new ConSql();
+            cmd = new MySqlCommand();
+
+            cmd.CommandText = "update corestore.users set username=@u,pass=@p,name=@n,lastname=@l,adress=@a,zipcode=@z,cpf=@c,birthday=@b,admin=@admin where userid=@id";
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@u", user);
+            cmd.Parameters.AddWithValue("@p", pass);
+            cmd.Parameters.AddWithValue("@n", name);
+            cmd.Parameters.AddWithValue("@l", lname);
+            cmd.Parameters.AddWithValue("@a", adress);
+            cmd.Parameters.AddWithValue("@z", zip);
+            cmd.Parameters.AddWithValue("@c", cpf);
+            cmd.Parameters.AddWithValue("@b", birth);
+            cmd.Parameters.AddWithValue("@admin", adm);
+
+            try
+            {
+                cmd.Connection = con.connect();
+
+                if (cmd.ExecuteNonQuery() == 1)
+                {
+                    MessageBox.Show("Done!");
+                } else {
+                    MessageBox.Show("unDone!");
+                }
             }
             catch (System.Exception err)
             {
